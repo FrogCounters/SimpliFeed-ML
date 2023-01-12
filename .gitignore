@@ -1,0 +1,7 @@
+__pycache
+logs
+results
+venv
+wandb
+steps to deploy to AWS Sagemaker.txt
+env_var_local.json

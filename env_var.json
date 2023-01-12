@@ -1,0 +1,9 @@
+{
+    "iam_role" : "ARN for your Sagemaker IAM Role",
+    "HF_MODEL_ID" : "Hugging Face Model ID",
+    "HF_TASK" : "Hugging Face Task", 
+    "hf_apikey" : "Hugging Face API Key",
+    "hf_apiurl" : "Hugging Face API URL",
+    "endpoint_name": "AWS Sagemaker endpoint name"
+}
+
