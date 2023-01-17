@@ -19,9 +19,9 @@ The Machine Learning Model was deployed using AWS Tools :
 - AWS Lambda
 - AWS API Gateway
 
-I initially wanted to access/deploy the model through the HuggingFace Inference API, however it re-initialises the model each time you call the inference and doesn't store the model instance after calling it the first time (You can bypass this by subscribing to HuggingFace Pro). This means that waiting times can approach 1 minute, which is way too long.
+We initially wanted to access/deploy the model through the HuggingFace Inference API, however it re-initialises the model each time you call the inference and doesn't store the model instance after calling it the first time (You can bypass this by subscribing to HuggingFace Pro). This means that waiting times can approach 1 minute, which is way too long.
 
-Hence, I decided to deploy through AWS which initialises model and. The Deployment process can be split into 4 smallerparts :
+Hence, we decided to deploy through AWS which initialises model and. The Deployment process can be split into 4 smallerparts :
 
 1. General AWS Configurations
 2. AWS Sagemaker
@@ -81,7 +81,7 @@ NOTE : You will NOT be able to view your Secret Access Key again so make sure yo
 - Change Run Time to Python 3.7 and create function
 - Once done creating Lambda Function, click on the function you just created
 - From here on, there are a few things that you need to take note of :
-  - Change Code Source to parse your inputs. This varies according to your task and model type. Below is an example of the one I used for a `Text2Text Generation Task` for HuggingFace Models
+  - Change Code Source to parse your inputs. This varies according to your task and model type. Below is an example of the one we used for a `Text2Text Generation Task` for HuggingFace Models
 
     ```python
     import os
