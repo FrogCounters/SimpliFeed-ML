@@ -1,3 +1,15 @@
+# SimpliFeed Machine Learning (Training / Evaluation)
+
+## Model Architecture / Design
+
+- Pre-Trained **Pegasus-Large** fine tuned on the **Xsum** dataset for Abstractive Summarisation
+  - Standard Transformer encoder - decoder with Gap Sentences Generation
+  - New Pretraining Objective that is better aligned with downstream fine tuning for abstractive summarisation as compared to conventional MLM techniques
+- Finetuned on a series of Financial News articles and its summary 
+- Further Finetuned on **trade-the-event** dataset (Hugging Face Hub)
+
+
+To Deploy model(s) uploaded to Hugging Face Hub through AWS, please follow the instructions in the following section `Deploying HuggingFace Model`.
 # Deploying HuggingFace Model
 
 Below are instructions to Deploy a Hugging Face Model through AWS. Although some of the stages are well-documented, there are a few parts (especially later down the instructions) where there is little guidance available. Hence, this section serves as a supporting reference.
