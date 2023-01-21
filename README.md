@@ -72,7 +72,7 @@ but was unable to find meaningful evidence to explain why. Perhaps this could be
 
 tte(1500)            |  tte(1000)
 :-------------------------:|:-------------------------:
-![](img\tte1500.PNG)  |  ![](img\tte1000.PNG)
+![](https://raw.githubusercontent.com/FrogCounters/SimpliFeed-ML/main/img/tte1000.PNG)  |  ![](https://raw.githubusercontent.com/FrogCounters/SimpliFeed-ML/main/img/tte500.PNG)
 
 ---
 
