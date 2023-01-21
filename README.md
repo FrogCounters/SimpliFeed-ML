@@ -70,7 +70,7 @@ Fine-tuning the model on the additional **tte** dataset helped improve its `roug
 
 but was unable to find meaningful evidence to explain why. Perhaps this could be attributed to overfitting, which is a likely candidate after examining our loss curves.
 
-tte(1500)            |  tte(1000)
+tte(1000)            |  tte(1500)
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/FrogCounters/SimpliFeed-ML/main/img/tte1000.PNG)  |  ![](https://raw.githubusercontent.com/FrogCounters/SimpliFeed-ML/main/img/tte1500.PNG)
 
