@@ -7,4 +7,3 @@ steps to deploy to AWS Sagemaker.txt
 env_var_local.json
 updatedb.py
 data-1673876615011.csv
-img
